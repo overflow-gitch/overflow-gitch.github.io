@@ -35,9 +35,6 @@ li{
     display: inline;
     margin-right: 1em;
 }
-li a:target{
-    color: white;
-}
 li a:hover{
     color: white;
 }
@@ -47,5 +44,19 @@ nav{
 /* End of the nav bar section */
 
 /* Start of main section */
-
+.title-text{
+    text-align: center;
+    padding: 5em;
+}
+.explanation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2em;
+    border: 10px, solid;
+    border-color: greenyellow;
+}
+.explanation h2{
+    padding: 1em;
+}
 /* End of main section */
