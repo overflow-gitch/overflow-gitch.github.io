@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 2000px;
+}
+
+/* Start of the nav bar section */
+a{
+    text-decoration: none;
+    color: #CED8D6;
+}
+header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.nav-section{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-title a{
+    color: white;
+    display: inline-block;
+    padding: 1em;
+}
+.nav-links{
+    display: inline;
+    padding: 1em;
+}
+li{
+    display: inline;
+    margin-right: 1em;
+}
+li a:target{
+    color: white;
+}
+li a:hover{
+    color: white;
+}
+nav{
+    background-color: #343A40;
+}
+/* End of the nav bar section */
+
+/* Start of main section */
+
+/* End of main section */
