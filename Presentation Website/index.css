@@ -22,9 +22,10 @@ header{
     text-decoration: none;
     color: #CED8D6;
 }
-.nav-links{
+.nav-links a{
     display: inline;
-    padding: 1em;
+    text-decoration: none;
+    color: #CED8D6;
 }
 li{
     display: inline;
