@@ -4,10 +4,6 @@
 }
 
 /* Start of the nav bar section */
-a{
-    text-decoration: none;
-    color: #CED8D6;
-}
 header{
     position: -webkit-sticky;
     position: sticky;
@@ -23,6 +19,8 @@ header{
     color: white;
     display: inline-block;
     padding: 1em;
+    text-decoration: none;
+    color: #CED8D6;
 }
 .nav-links{
     display: inline;
@@ -68,4 +66,37 @@ nav{
     margin-bottom: 1em;
     margin-right: 1em;
 }
+
+
 /* End of main section */
+
+/* start of project section */
+
+.showcase{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 2em;
+    width: 70%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: greenyellow;
+}
+
+.showcase-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.showcase-item button a{
+    color: black;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+/* end of project section */
