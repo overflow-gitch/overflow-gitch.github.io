@@ -75,8 +75,8 @@ nav{
 
 .showcase{
     display: grid;
-    grid-template-columns: auto /*auto*/;
-    column-gap: 2em;
+    grid-template-columns: auto auto;
+    column-fill: auto;
     width: 70%;
     border-width: 1px;
     border-style: solid;
@@ -87,6 +87,12 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.showcase-item title{
+    display: flex;
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 40%;
 }
 .showcase-item button a{
     color: black;

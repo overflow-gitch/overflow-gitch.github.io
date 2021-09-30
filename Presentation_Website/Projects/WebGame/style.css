@@ -1,0 +1,18 @@
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+canvas{
+    border-top: chartreuse;
+    border-width: 10px;
+    border-style: solid ;
+    height: 500px;
+    display: flex;
+    background-color: lightgray;
+}
+p{
+    margin: 50px;
+}
