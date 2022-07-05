@@ -69,20 +69,29 @@ nav{
 
 /* start of project section */
 
+
 .showcase{
     display: grid;
     grid-template-columns: auto auto;
     column-fill: auto;
-    width: 70%;
-    border-width: 1px;
-    border-style: solid;
-    border-color: greenyellow;
+    justify-content: space-evenly;
+    width: 80%;
 }
 
 .showcase-item{
+    border-width: 1px;
+    border-style: solid;
+    border-color: greenyellow;
+    border-radius: 2%;
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 20px;
+}
+.showcase-item img{
+    height: 15rem;
+    width: 15rem;
 }
 .showcase-item title{
     display: flex;
@@ -99,6 +108,17 @@ main{
     align-items: center;
     align-content: center;
     flex-direction: column;
+}
+
+@media only screen and (max-width: 768px) {
+    .showcase{
+        display: grid;
+        grid-template-columns: auto;
+        column-fill: auto;
+        column-gap: 2%;
+        justify-content: space-evenly;
+        width: 80%;
+    }
 }
 
 /* end of project section */
