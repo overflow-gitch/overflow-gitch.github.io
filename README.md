@@ -1,4 +1,4 @@
 # overflow-gitch.github.io
-A personal project despensiary
+For Personal Projects, self-advertisements, etc.
 
 link to site: https://overflow-gitch.github.io/
