@@ -109,8 +109,8 @@ nav{
     padding: 5px;
 }
 .showcase-item img{
-    height: 15rem;
-    width: 15rem;
+    height: 300px;
+    width: 300px;
 }
 .showcase-item title{
     display: flex;
