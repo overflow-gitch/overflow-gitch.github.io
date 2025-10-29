@@ -1,4 +1,4 @@
 # overflow-gitch.github.io
-For Personal Projects, self-advertisements, etc.
+Made with Angular Cli.
 
-link to site: https://overflow-gitch.github.io/
+(Link to site in progress, Github Pages does not allow for Single Page Applications properly, and I am more interested in learning new tech, rather than fudging a half-measure.)
