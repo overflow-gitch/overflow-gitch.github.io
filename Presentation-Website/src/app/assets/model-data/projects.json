@@ -1,0 +1,38 @@
+[
+    {
+        "id": 0,
+        "title": "Poker Game",
+        "description": "A C# console Poker game.",
+        "imageLink": null,
+        "sourceLink": "https://github.com/overflow-gitch/Poker_Game",
+        "downloadLink": null,
+        "tags": ["C#", ".NET", "Console app", "Windows", "Game"]
+    },
+    {
+        "id": 1,
+        "title": "Circle Circus",
+        "description": "A simple web game using html canvas.",
+        "imageLink": null,
+        "sourceLink": "https://github.com/overflow-gitch/Web-Game",
+        "downloadLink": null,
+        "tags": ["HTML", "CSS", "JS", "Web", "Game"]
+    },
+    {
+        "id": 2,
+        "title": "WaveDodger III - SlimeDodger",
+        "description": "The final project for Game Programming college class Fall 2021",
+        "imageLink": null,
+        "sourceLink": "https://github.com/overflow-gitch/Web-Game",
+        "playLink": "https://icarus-2.github.io/games/SlimeDodger/",
+        "tags": ["HTML", "CSS", "JS", "Web", "Game"],
+        "collaborators": ["https://icarus-2.github.io"]
+    },
+    {
+        "id": 2,
+        "title": "AI Usage Research for Education",
+        "description": "An example on how to leverage Machine Learning and IoT to create a solution to help reduce energy use as well as teach new computer scientists.",
+        "sourceLink": "https://github.com/John-Abbott-College/pia-ai-kits-2022/tree/main",
+        "tags": ["AI", "Python", "Education", "Professional", "JAC"],
+        "collaborators": ["(In association with John Abbott College and Concordia University.)"]
+    }
+]
